@@ -17,7 +17,7 @@
   },
   {
     "title": "Chess Game and Solver Engine",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/chess.png",
     "description": "Consoled-played chess game and engine that looks ahead 4 moves",
     "skills": ["Haskell"],
     "demo": "",
