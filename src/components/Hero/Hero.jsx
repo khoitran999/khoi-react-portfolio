@@ -35,7 +35,7 @@ export const Hero = () => {
           Reach out if you'd like to learn more!
         </p>
         <div className={styles.contactcontain}>
-        <a href="https://drive.google.com/file/d/1N6uVWM3flwZ3AeqPRCYClK2FS0iLDR6x/view?usp=sharing" className={styles.contactBtn}>
+        <a href="https://drive.google.com/file/d/1j7T8CC-N4rHFpfEE21DftDQdupF-NxEw/view?usp=sharing" className={styles.contactBtn}>
           My Resume
         </a>
         <a href="mailto:minhkhoitran99@email.com" className={styles.contactBtn}>

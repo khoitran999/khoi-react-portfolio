@@ -39,7 +39,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Mobile Developer</h3>
               <p>
-                I have experience in developing in iOS and cross-flatform app
+                I'm an aspire mobile developer with experience in developing iOS and cross-flatform app
               </p>
             </div>
           </li>
