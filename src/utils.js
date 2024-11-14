@@ -1,3 +1,4 @@
 export const getImageUrl = (path) => {
-  return new URL(`/assets/${path}`, import.meta.url).href;
+  const base = import.meta.env.DEV ? '' : '/khoi-react-portfolio/';
+  return `${base}assets/${path}`;
 };
