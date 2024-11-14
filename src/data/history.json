@@ -1,29 +1,35 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "Lead Software Engineer",
+    "organisation": "PDC",
+    "startDate": "May 2024",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Engineered advanced algorithms for analyzing real-time squat metrics", 
+      "Designed an intuitive iOS user interface", 
+      "Integrated and customized WitMotion Accelerometer SDK with the app",
+      "Secure First Place in the 2024 Stumberg Startup Venture Competition, earning $25,000 for product acceleration"],
+    "imageSrc": "history/pdc.png"
+  },
+  {
+    "role": "Tutor",
+    "organisation": "ACM",
+    "startDate": "Sep 2024",
+    "endDate": "Present",
+    "experiences": ["Tutor over 20 CS students weekly in introductory and mid-level courses",
+      "Enhance tutee’s debugging skills collaboratively",
+    "Foster critical thinking through problem decomposition"],
+    "imageSrc": "history/acm.png"
+  },
+  {
+    "role": "Teaching Assistant - Data Structures",
+    "organisation": "Trinity University",
+    "startDate": "Sep 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Reinforce student understanding of data structure concepts and nuances of design implementations",
+"Guide students in practical implementation of various data structures, enhancing their coding skills"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/trinity.jpeg"
   }
 ]

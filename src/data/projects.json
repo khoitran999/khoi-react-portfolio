@@ -1,26 +1,42 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "RowdyPay",
+    "imageSrc": "projects/rowdypay_icon.jpg",
+    "description": "An iOS App that offers swift group payments and budgeting solution",
+    "skills": ["SwiftUI", "RESTAPI", "Swift"],
+    "demo": "https://devpost.com/software/rowdypay?ref_content=my-projects-tab&ref_feature=my_projects",
+    "source": ""
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Pet Store Website",
+    "imageSrc": "projects/petstore.png",
+    "description": "A web application that sells pet accessories with easy admin management",
+    "skills": ["Node", "MySQL", "HTML", "JavaScript"],
+    "demo": "",
+    "source": "https://github.com/Jbrigham-Trinity/PetSmartest"
   },
   {
-    "title": "Project C",
+    "title": "Chess Game and Solver Engine",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Consoled-played chess game and engine that looks ahead 4 moves",
+    "skills": ["Haskell"],
+    "demo": "",
+    "source": "https://github.com/TU-CSCI2322-FL23/solver-halloqueensgambit"
+  },
+  {
+    "title": "Blackout Apartment Game",
+    "imageSrc": "projects/blackout.png",
+    "description": "A thriller 2-D two-player platform game. Escape before the night ends!",
+    "skills": ["Unity", "C#"],
+    "demo": "https://devpost.com/software/blackout-apartment",
+    "source": "https://github.com/khoitran999/Blackout-for-Rowdy"
+  },
+  {
+    "title": "Automated Irrigation System",
+    "imageSrc": "projects/irrigation.jpeg",
+    "description": "A Raspberry Pi machine that detects soil moisture for optimal irrigation",
+    "skills": ["C++", "Hardware"],
+    "demo": "https://drive.google.com/file/d/1lNl_lrLaTUquEJg-GscNm2UqIlmy4dVz/view?usp=sharing",
+    "source": ""
   }
 ]

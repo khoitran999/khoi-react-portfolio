@@ -10,9 +10,26 @@
   margin: 0 10%;
 }
 
+.leftSide {
+  display: flex;
+  align-items: center; 
+}
+
+.logo {
+  opacity: 0;
+  width: 20%;
+  margin-right: 5%;
+  margin-left: -25%;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+}
+
+img{
+  width:5%;
+}
 .title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 1000;
   text-decoration: none;
   color: var(--color-text);
 }
@@ -80,3 +97,4 @@
     z-index: 1;
   }
 }
+

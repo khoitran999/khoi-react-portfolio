@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./Experience.module.css";
+import "./cube.scss";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
@@ -43,6 +44,30 @@ export const Experience = () => {
             );
           })}
         </ul>
+      </div>
+      <div className={styles.cubeContainer}>
+        <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <img src={getImageUrl("skills/python.png")} alt="Python" />
+            </div>
+            <div className="face2">
+              <img src={getImageUrl("skills/java.png")} alt="Python" />
+            </div>
+            <div className="face3">
+              <img src={getImageUrl("skills/react.png")} alt="Python" />
+            </div>
+            <div className="face4">
+              <img src={getImageUrl("skills/node.png")} alt="Python" />
+            </div>
+            <div className="face5">
+              <img src={getImageUrl("skills/swiftui.png")} alt="Python" />
+            </div>
+            <div className="face6">
+              <img src={getImageUrl("skills/c.png")} alt="Python" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

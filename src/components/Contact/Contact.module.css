@@ -35,15 +35,27 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
 }
 
-.link a {
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
   color: var(--color-text);
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.linkWrapper:hover {
+  opacity: 0.5;
+}
+
+.linkWrapper img {
+  width: 30px;
+  height: auto;
 }
 
 @media screen and (max-width: 830px) {

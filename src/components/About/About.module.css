@@ -27,6 +27,11 @@
 
 .aboutImage {
   width: 35%;
+  filter: drop-shadow(0 0 10px rgba(64, 175, 255, 0.953));  /* blue glow */
+  transition: filter 0.3s ease;
+}
+.aboutImage:hover{
+  filter: drop-shadow(0 0 30px rgb(64, 200, 255, 1));
 }
 
 .aboutItems {
@@ -53,18 +58,35 @@
   transition: 0.4s;
 }
 
+/* Add styles for the icon container */
+.aboutItem img {
+  width: 75px;  /* adjust size as needed */
+  height: 75px;  /* adjust size as needed */
+  filter: drop-shadow(0 0 20px rgba(64, 156, 255, 0.7));  /* blue glow */
+  transition: filter 0.3s ease;
+}
+.aboutItem:hover img {
+  filter: drop-shadow(0 0 12px rgba(64, 156, 255, 1));
+}
+
 .aboutItem:hover {
   background-size: 100% 100%;
+
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 45px;
   font-weight: 600;
+  margin-left: 25px;
+
 }
 
 .aboutItem p {
   font-size: 25px;
+  margin-left: 25px;
+
 }
+
 
 @media screen and (max-width: 830px) {
   .container {

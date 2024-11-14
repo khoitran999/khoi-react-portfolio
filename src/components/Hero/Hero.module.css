@@ -17,6 +17,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+
 }
 
 .title {
@@ -29,16 +30,34 @@
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
+
 }
+.logoK{
+  width:45px;
+  margin-left: 20px;
+  opacity: 0;
+  height: auto;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+
+}
+
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  animation: fadeIn 1s 1.8s backwards;
+
 }
 
+.contactcontain {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
@@ -48,16 +67,21 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+  &:hover{
+    background: var(--color-secondary);
+  }
 }
 
 .heroImg {
   width: 50%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+
 }
 
 @keyframes floating {

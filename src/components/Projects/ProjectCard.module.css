@@ -12,6 +12,9 @@
 
 .image {
   margin-bottom: 26px;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
 }
 
 .title {
@@ -58,4 +61,8 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+.link:hover{
+  opacity:0.7;
 }
